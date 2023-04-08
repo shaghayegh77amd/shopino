@@ -60,7 +60,7 @@ const Folder: FC<IItemProps> = ({
     }
   }, [editFile]);
   return (
-    <div className={`${styles.item} `}>
+    <div className={`${styles.item} ${ currentFile && currentFile.id === item.id?styles.show:''}`}>
       <p
         onClick={() => setCurrent(item)}
         className={

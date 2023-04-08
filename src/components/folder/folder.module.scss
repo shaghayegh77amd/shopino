@@ -1,6 +1,11 @@
 .item {
   padding-left: 10px;
   transition: all linear 0.1s;
+  height: 35px;
+  overflow: hidden;
+  &.show{
+    height: auto;
+  }
   p {
     color: #fff;
     font-size: 15px;
