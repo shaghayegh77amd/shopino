@@ -1,0 +1,25 @@
+.item {
+  padding-left: 10px;
+  transition: all linear 0.1s;
+  p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 10px;
+    padding-left: 0;
+    img{
+      margin-right: 7px;
+      vertical-align: middle;
+    }
+    &.select {
+      background-color: #4e4b5c;
+    }
+  }
+  & p:hover {
+    background-color: #4e4b5c;
+  }
+  
+  div {
+    padding-left: 10px;
+  }
+}
